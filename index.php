@@ -4,6 +4,5 @@
 
     $router = new Router();
 
-    $router->get('/teste', 'Contato::teste');
-
+    $router->get('/teste', 'Contato:teste');
 ?>
